@@ -1,0 +1,189 @@
+ /* para formatear todo*/
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background: rgb(147, 170, 159);
+    color: tomato;
+    padding: 10px;
+
+    
+}
+
+header #hay{
+    width: 20px;
+    display:block;
+  /*background: turquoise;*/
+    position: absolute;
+    left:95%;
+    top:4%;
+}
+header #elh1{
+    width: 20%;
+    margin-left: 30px;
+    color: rgb(221, 243, 19);
+    background: violet;
+    display: inline;
+
+}
+header #elh12{
+     margin-left: 40%;
+     top: 20px;
+     background: yellowgreen;
+     display: inline;
+     color: white;
+
+  
+}
+header #elh2{
+    display: inline;
+    color: white;
+
+
+}
+header #elh3{
+    display: inline;
+    color: white;
+}
+
+/* NAV*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    height:97%;
+
+    
+}
+nav{
+    height: 40px;
+    top: 60px;
+    position:absolute;
+    width: 100%;
+    background-color:midnightblue;
+    left: 0;
+
+}
+
+nav ul li{
+    background-color:midnightblue;
+    padding: 6px;
+    width: 200px;
+    text-align: center;
+
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    display: block;
+    cursor: pointer;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li:hover{
+    background-color:rgb(68, 142, 184);
+
+
+}
+
+
+
+
+
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 39px;
+    left:365px;
+    z-index: 1;
+
+
+}
+.submenu li{
+    background-color:rgb(32, 41, 54);
+        width:  200px;
+
+}
+nav ul li .submenu{
+    display:none;
+
+}
+
+nav ul li:hover .submenu {
+     display: block;
+
+}
+
+
+
+
+
+
+
+
+.submenu1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 39px;
+    z-index: 1;
+    left:575px;
+   
+  
+}
+.submenu1 li{
+    background-color:rgb(32, 41, 54);
+}
+nav ul li .submenu1{
+    display:none;
+}
+/*  */
+nav ul li:hover .submenu1 {
+     display: block;
+
+}
+
+
+
+
+/*  */
+
+.submenu2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 39px;
+    z-index: 1;
+    left:788px;
+   
+  
+}
+.submenu2 li{
+    background-color:rgb(32, 41, 54);
+}
+nav ul li .submenu2{
+    display:none;
+}
+
+nav ul li:hover .submenu2 {
+     display: block;
+
+}
+
+
+
+
+
+
+
+
+
